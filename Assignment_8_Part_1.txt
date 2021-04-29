@@ -1,7 +1,7 @@
 # Assignment 8 (part 1)
 ## Due 06/05/21
 
-1. Using the cython code in 'examples' as reference, cythonize the module 'PyQuantumWalk' to create a faster C-extension module 'CyQuantumWalk'. 
+1. Using the cython examples as reference, cythonize the module 'PyQuantumWalk' to create a faster C-extension module 'CyQuantumWalk'. (2 Marks)
 	
 'PyQuantumWalk' is a module simulating a the discrete-time quantum walk of a 1/2-spinor a line (or path) graph.
 
@@ -29,4 +29,6 @@ As a suggested order:
 
 Report the speed up of you final Cythonized module.
 
-2. Do you think the code in PyQuantumWalk is a good candidate for parallism?
+2. Do you think the code in PyQuantumWalk is a good candidate for parallism? Justify your position and present the problem or a parallel solution. (2 Marks)
+
+Total Assignments Marks: 10
