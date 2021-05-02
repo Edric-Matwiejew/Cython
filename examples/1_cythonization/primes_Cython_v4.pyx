@@ -13,8 +13,8 @@ def primes( int nPrimes):
     while primeCount < nPrimes:
 
         # Is n prime?
-        for i in maxPrime:
-            if n % i == 0:
+        for i in range(primeCount):
+            if n % primes[i] == 0:
                 break
         # If no break occurred in the loop, we have a prime.
         else:
