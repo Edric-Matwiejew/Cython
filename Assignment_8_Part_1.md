@@ -1,5 +1,5 @@
 # Assignment 8 (part 1) #
-## Due 06/05/21 ##
+## Due 12/05/21 ##
 
 1. Using the cython examples as reference, cythonize the module 'PyQuantumWalk' to create a faster C-extension module 'CyQuantumWalk'. (2 Marks)
 
