@@ -1,6 +1,10 @@
 # Assignment 8 (part 1) #
 ## Due 12/05/21 ##
 
+Clone the assignment files form:
+
+https://github.com/Edric-Matwiejew/Cython.git
+
 1. Using the cython examples as reference, cythonize the module 'PyQuantumWalk' to create a faster C-extension module 'CyQuantumWalk'. (2 Marks)
 
 As a suggested order:
