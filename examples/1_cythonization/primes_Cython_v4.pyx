@@ -1,5 +1,3 @@
-from cpython.mem cimport PyMem_Malloc, PyMem_Realloc, PyMem_Free
-
 def primes( int nPrimes):
 
     if nPrimes > 1000:

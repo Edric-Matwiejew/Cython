@@ -4,7 +4,7 @@ mkdir -p compiled_modules
 mkdir -p reports
 mkdir -p c_code
 
-for cython_file in grep -e *.pyx;
+for cython_file in grep *.pyx;
 do
 	cythonize -i -a $cython_file
 done
