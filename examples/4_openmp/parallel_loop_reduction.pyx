@@ -7,7 +7,7 @@ cdef:
     int a[100000]
     int b[100000]
     int c[100000]
-    int total
+    int total = 0
 
 for i in prange(n, nogil = True):
     a[i] = i
