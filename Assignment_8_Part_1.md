@@ -17,7 +17,7 @@ Report the speed up of your final Cythonized module.
 
 Note: Marks will be awarded based on the reported speedup - or the variety in your usage of the Cython programming language.
 
-2. Do you think the code in PyQuantumWalk is a good candidate for parallism? Justify your position and, a paragraph, present the problem or a parallel solution. (2 Marks)
+2. Do you think the code in PyQuantumWalk is a good candidate for parallism? Justify your position, present the problem or a parallel solution. (2 Marks)
 
 Total Assignments Marks: 10
 
