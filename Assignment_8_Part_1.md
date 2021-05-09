@@ -34,8 +34,8 @@ Loosely speaking,
 
 At each step the spinor:
 
-1. Is put into an equal superposition at each of the line nodes (where it has probability density).
-2. Moves from that node following rules (a) to (c).
+i. Is put into an equal superposition at each of the line nodes (where it has probability density).
+ii. Moves from that node following rules (a) to (c).
 
 Changes to the code using Cython should not interefere with the algorithm's logic, the output should remain the same.
 
@@ -59,3 +59,5 @@ Implement this algorithm so it can solve up to (at least) $`𝑛=10`$.
 
 Plot the performance of your package as a function of thread count, and target variance, comment of the success of your algorithm in terms of its speed and accuracy.
 (6 marks)
+
+(Assignment Total Marks: 10)
