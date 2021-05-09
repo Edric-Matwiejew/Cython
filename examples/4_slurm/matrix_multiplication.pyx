@@ -1,4 +1,3 @@
-from cpython.mem cimport PyMem_Malloc, PyMem_Free
 from libc.stdlib cimport rand, RAND_MAX
 from cython.parallel import prange
 from cython import cdivision
@@ -15,11 +14,11 @@ cdef void matrixVectorDot( int N, double[:,:] A, double& v[], double& u[]) nogil
 
 cdef:
 
-    int iterations = 100
-    int i, j, N = 9000
-    double A[9000][9000]
-    double b[9000]
-    double c[9000]
+    int iterations = 60
+    int i, j, N = 15000
+    double A[15000][15000]
+    double b[15000]
+    double c[15000]
 
 for i in prange(N, nogil = True):
     b[i] = <double>rand()/<double>RAND_MAX
