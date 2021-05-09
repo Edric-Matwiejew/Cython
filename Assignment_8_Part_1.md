@@ -28,9 +28,9 @@ https://en.wikipedia.org/wiki/Quantum_walk
 
 Loosely speaking, 
 
-a. If the spinor is spin down, [1,0], it moves to the left. 
-b. If the spinor is spin up, [0,1], it moves to the right.
-c. If the spinor in an a superposition, it will move both left and right.
+    a. If the spinor is spin down, [1,0], it moves to the left. 
+    b. If the spinor is spin up, [0,1], it moves to the right.
+    c. If the spinor in an a superposition, it will move both left and right.
 
 At each step the spinor:
 
