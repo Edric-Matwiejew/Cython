@@ -1,5 +1,6 @@
-# Assignment 8 (part 1) #
-## Due 13/05/21 ##
+# Assignment 8
+## Part 1
+### Due 13/05/21 ###
 
 Clone the assignment files form:
 
@@ -19,9 +20,6 @@ Note: Marks will be awarded based on the reported speedup - or the variety in yo
 
 2. Do you think the code in PyQuantumWalk is a good candidate for parallism? Justify your position, present the problem or a parallel solution. (2 Marks)
 
-Total Assignments Marks: 10
-
-
 ### Background Information ####
 
 'PyQuantumWalk' is a module simulating the discrete-time quantum walk of a 1/2-spinor a line (or path) graph.
@@ -40,3 +38,24 @@ At each step the spinor:
 2. Moves from that node following rules (a) to (c).
 
 Changes to the code using Cython should not interefere with the algorithm's logic, the output should remain the same.
+
+## Part 2
+
+3. The $$n$$-dimensional unit-sphere is an object whose parameters satisfy:
+
+$$𝑥_1^2+…+𝑥_𝑛^2=1$$
+
+With reference to,
+
+https://en.wikipedia.org/wiki/Monte_Carlo_integration#Overview,
+
+and 
+
+https://en.wikipedia.org/wiki/Algorithms_for_calculating_variance#Welford's_online_algorithm ,
+
+Develop a parallel algorithm capable of calculating the volume of an $$n$$-dimensional unit sphere (at least) up to $$𝑛=10$$. Outline your algorithm using a  program flow chart.
+
+Implement this algorithm so it can solve up to (at least) $$𝑛=10$$.
+
+Plot the performance of your package as a function of thread count, and target variance, comment of the success of your algorithm in terms of its speed and accuracy.
+(6 marks)
