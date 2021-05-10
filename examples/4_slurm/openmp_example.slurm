@@ -16,8 +16,10 @@
 module load gcc
 module load python3.9/
 
-pip3 install matplotlib
-python3 plot.py
+# NumPy, Cython and Mpi4Py are already installed (and loaded automatically).
+# Additional python packages can be installed locally.
+#pip3 install matplotlib
+#python3 plot.py
 
 # Set the compile flag after loading gcc.
 export CFLAGS=-fopenmp
