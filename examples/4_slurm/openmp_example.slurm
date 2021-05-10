@@ -25,7 +25,7 @@ module load python3.9/
 export CFLAGS=-fopenmp
 
 # Compile cython module 'matrix_multiplication', if it has changed.
-cythonize -i matrix_multiplication.pyx $
+cythonize -i matrix_multiplication.pyx 
 
 # Run the parallel program.
 echo "Demonstration of program scaling:"
