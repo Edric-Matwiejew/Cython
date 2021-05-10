@@ -12,17 +12,23 @@ There will be a formal introduction to Slurm and software management using Envir
 ```bash
 cd $MY_GROUP
 ```
-3. Clone the updated Cython repository (or your fork of the respository) to $MY_GROUP:
+3. Clone the updated Cython repository (or your fork of the respository) into $MY_GROUP:
 	
 ```bash
 git clone https://github.com/Edric-Matwiejew/Cython.git
 ```
 
-To run your code, copy the contents of this folder, replace the Cython and Python files with your own, and modify 'opemmp_example.slurm' accordingly. 
+4. Navigate to Cython/examples/4_slurm:
+
+```bash
+cd Cython/examples/4_slurm
+```
+
+To run your code, copy the contents of this folder, replace the Cython and Python files with your own, and modify 'opemmp_example.slurm' accordingly. On the workstation you can use Nano or Vim to edit text files. Otherwise, edit these files locally in your favourite text editor and transfer them to the workstation using Git + Github.
 
 ### Example Workflow
 
-But beforehand:
+But beforehand, ensure that you can complete the following steps:
 
 1. Submit the example job: 
 ```bash
