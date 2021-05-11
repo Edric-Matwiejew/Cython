@@ -9,42 +9,45 @@ There will be a formal introduction to Slurm and software management using Envir
 1. Log on following the instructions posted to LMS.
 
 2. Using 'cd' in the terminal, navigate to your group directory:
-
-        '''
-	cd $MY_GROUP
-        '''
-3. Clone the updated Cython repository to $MY_GROUP:
+```bash
+cd $MY_GROUP
+```
+3. Clone the updated Cython repository (or your fork of the respository) into $MY_GROUP:
 	
-	'''
-	git clone https://github.com/Edric-Matwiejew/Cython.git
+```bash
+git clone https://github.com/Edric-Matwiejew/Cython.git
+```
 
-	'''
+4. Navigate to Cython/examples/4_slurm:
 
-To run your code, copy the contents of this folder, replace the Cython and Python files with your own, and modify 'opemmp_example.slurm' accordingly. 
+```bash
+cd Cython/examples/4_slurm
+```
+
+To run your code, copy the contents of this folder, replace the Cython and Python files with your own, and modify 'opemmp_example.slurm' accordingly. On the workstation you can use Nano or Vim to edit text files. Otherwise, edit these files locally in your favourite text editor and transfer them to the workstation using Git + Github.
 
 ### Example Workflow
 
-But beforehand:
+But beforehand, ensure that you can complete the following steps:
 
 1. Submit the example job: 
-
-	'''
-	sbatch openmp_example.py
-	'''
+```bash
+sbatch openmp_example.py
+```
 
 2. Look at the status of the job in the queue:
-
-	'''
-	user@DEP58330: squeue
-	'''
+```bash
+squeue
+```
 
 3. Once the job has finished, read the program output:
-
-	'''
-	user@DEP58330: cat out.log
-	'''
+```bash
+cat out.log
+```
 
 A speedup should be observed as the number of threads increases from 1 to 32. 
+
+There a number of way to get files on-and-off the workstation (and other remote computers). For now, transfer your work using Git and your GitHub account.
 
 ### ***Warning***!
 
